@@ -1,0 +1,22 @@
+{
+    "name": "andresuntoro/softexpires",
+    "description": "A trait package to add soft expires feature to eloquent laravel/lumen",
+    "type": "library",
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "illuminate/database": "^6.0 || ^7.0 || ^8.0"
+    },
+    "keywords": ["laravel", "lumen", "database", "sql", "softexpires", "expires"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AndreSuntoro\\Database\\Eloquent\\": "src/" 
+        } 
+    },
+    "authors": [
+        {
+            "name": "Andre Suntoro",
+            "email": "andresuntoro@gmail.com"
+        }
+    ]
+}
